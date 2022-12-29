@@ -1,0 +1,67 @@
+/* Recreate the style using percentages instead of pixels */
+body {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text color */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; /* Base font size */
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    /* background-image: url('header-bg.jpg');
+    background-size: cover; */
+    height: 75%; /* Convert to percentage */
+    width: 100%; /* 100% of the parent element */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    color: #ffffff; /* White text */
+    font-size: calc(2.5 * 1em); /* 2.5 times the base font size */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 30%;
+  }
+  nav {
+    background-color: #006699; /* Blue background */
+    color: #ffffff; /* White text */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #cccccc; /* Light grey text on hover */
+  }
+  main {
+    max-width: 60%; /* Convert to percentage */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  section {
+    background-color: #f2f2f2; /* Light grey background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%; /* Convert to percentage */
+    padding: 20px;
+  }
+  footer {
+    background-color: #333; /* Blue background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
