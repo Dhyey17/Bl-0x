@@ -10,6 +10,7 @@ body {
   header {
     /* background-image: url('header-bg.jpg');
     background-size: cover; */
+    background-color: #006699; /* Blue background */
     height: 75%; /* Convert to percentage */
     width: 100%; /* 100% of the parent element */
     display: flex;
@@ -30,6 +31,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding: 0 20px;
+    font-size: large;
   }
   nav ul {
     list-style: none;
